@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-tp-exercice-trois"
+    }
+  },
+  "defaultProject": "angular-tp-exercice-trois",
+  "cli": {
+    "analytics": false
+  }
 }

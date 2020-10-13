@@ -1,0 +1,5 @@
+<ul *ngFor="let actor of actors ; let i = index">
+
+    <app-actor (requested)='deleteRequest($event)' [actor]=actor [index]=i></app-actor>
+
+</ul>
